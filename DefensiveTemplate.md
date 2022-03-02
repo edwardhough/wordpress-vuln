@@ -8,7 +8,6 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
 
 The following machines were identified on the network:
 - Name of VM 1
@@ -22,7 +21,6 @@ The following machines were identified on the network:
 - Etc.
 
 ### Description of Targets
-_TODO: Answer the questions below._
 
 The target of this attack was: `Target 1` (TODO: IP Address).
 
