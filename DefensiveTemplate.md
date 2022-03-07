@@ -50,6 +50,8 @@ Alert 1 is implemented as follows:
   - **Vulnerability Mitigated**: HTTP request smuggling, denial of service condition through high CPU usage
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Reliability rating - Medium
 
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image%2018.png" width=50% height=50%>
+
 #### CPU Usage Monitor
 Alert 2 is implemented as follows:
   - **Metric**: CPU usage
@@ -58,6 +60,8 @@ Alert 2 is implemented as follows:
   - **Vulnerability Mitigated**: Malware performing malicious actions can cause spikes in CPU activity
   - **Reliability**: Does this alert generate lots of false positives/false negatives? Potentially. Reliability rating - Medium
 
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image17.png" width=50% height=50%>
+
 #### Excessive HTTP Errors
 Alert 3 is implemented as follows:
   - **Metric**: HTTP errors
@@ -65,3 +69,5 @@ Alert 3 is implemented as follows:
   - **Threshold**: Above 400 errors for the last 5 minutes
   - **Vulnerability Mitigated**: Directory brute forcing
   - **Reliability**: Does this alert generate lots of false positives/false negatives? No. Reliability rating - High
+
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image%2019.png" width=50% height=50%>
