@@ -11,7 +11,7 @@
 
 The following machines were identified on the network:
 
-<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image12.png" width=50% height=50%>
+****NETWORK DIAGRAM HERE****
 
 - Kali Machine
   - **Operating System**: Kali Linux
