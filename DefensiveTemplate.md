@@ -50,7 +50,7 @@ Alert 2 is implemented as follows:
   - **Metric**: CPU usage
   - **Alert rule**: WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Threshold**: Above 0.5 for the last 5 minutes
-  - **Vulnerability Mitigated**: 
+  - **Vulnerability Mitigated**: Malware performing malicious actions can cause spikes in CPU activity
   - **Reliability**: Does this alert generate lots of false positives/false negatives? Potentially. Reliability rating - Medium
 
 #### Excessive HTTP Errors
@@ -60,14 +60,3 @@ Alert 3 is implemented as follows:
   - **Threshold**: Above 400 errors for the last 5 minutes
   - **Vulnerability Mitigated**: Directory brute forcing
   - **Reliability**: Does this alert generate lots of false positives/false negatives? No. Reliability rating - High
-
-The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
