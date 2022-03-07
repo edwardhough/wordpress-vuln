@@ -42,24 +42,24 @@ Alert 1 is implemented as follows:
   - **Metric**: HTTP request size
   - **Alert rule**: WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
   - **Threshold**: Above 3500 bytes for the last 1 minute
-  - **Vulnerability Mitigated**: 
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: HTTP request smuggling, denial of service condition through high CPU usage
+  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Reliability rating - Medium
 
 #### CPU Usage Monitor
 Alert 2 is implemented as follows:
   - **Metric**: CPU usage
   - **Alert rule**: WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
   - **Threshold**: Above 0.5 for the last 5 minutes
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: 
+  - **Reliability**: Does this alert generate lots of false positives/false negatives? Potentially. Reliability rating - Medium
 
 #### Excessive HTTP Errors
 Alert 3 is implemented as follows:
   - **Metric**: HTTP errors
   - **Alert rule**: WHEN count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes
   - **Threshold**: Above 400 errors for the last 5 minutes
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Vulnerability Mitigated**: Directory brute forcing
+  - **Reliability**: Does this alert generate lots of false positives/false negatives? No. Reliability rating - High
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 - Vulnerability 1
