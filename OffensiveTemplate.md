@@ -20,16 +20,22 @@ This scan identifies the services below as potential points of entry:
   - SMB
 
 The following vulnerabilities were identified on each target:
-- Target 1
-  - CWE-552: Files or Directories Accessible to External Parties
+
+ - CWE-552: Files or Directories Accessible to External Parties
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image7.png" width=50% height=50%>
  
  - CWE-521: Weak Password Requirements
-  - CWE-732: Incorrect Permission Assignment for Critical Resource
-  - CWE-269: Improper Privilege Management
 
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=50% height=50%>
+ 
+ - CWE-732: Incorrect Permission Assignment for Critical Resource
 
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image10.png" width=50% height=50%>
+
+ - CWE-269: Improper Privilege Management
+
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image14.png" width=50% height=50%>
 
 
 ### Exploitation
