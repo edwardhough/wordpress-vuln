@@ -41,7 +41,8 @@ The following vulnerabilities were identified on each target:
 ### Exploitation
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
-  `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
+
+  - `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
   
    - **Exploit Used**
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
