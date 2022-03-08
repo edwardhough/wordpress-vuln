@@ -42,7 +42,7 @@ The following vulnerabilities were identified on each target:
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: 
+  `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
     - **Exploit Used**
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
       - Command used: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110
@@ -50,15 +50,26 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
  
  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
   
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+  - `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_
+ 
+ 
+ <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image5.png" width=75% height=75%>
+ 
+ 
+  - `flag3.txt`: afc01ab56b50591e7dccf93122770cd2
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
+
+
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image2.png" width=75% height=75%>
+  - `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
+
+
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image%2020.png" width=75% height=75%>
