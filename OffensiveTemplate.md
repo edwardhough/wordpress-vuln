@@ -42,7 +42,7 @@ The following vulnerabilities were identified on each target:
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 
-  - `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
+   `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
   
    **Exploit Used**
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
@@ -51,7 +51,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
  
  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
   
-  - `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
+   `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
  
     **Exploit Used**
       - Navigated to webroot without being a privileged user
@@ -61,7 +61,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image5.png" width=75% height=75%>
  
  
-  - `flag3.txt`: afc01ab56b50591e7dccf93122770cd2
+   `flag3.txt`: afc01ab56b50591e7dccf93122770cd2
 
     **Exploit Used**
       - Able to access user table in mySQL database
@@ -71,7 +71,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image2.png" width=75% height=75%>
 
 
-  - `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
+   `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
  
     **Exploit Used**
       - Spawning root shell from python command
