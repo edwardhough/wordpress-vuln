@@ -23,19 +23,19 @@ The following vulnerabilities were identified on each target:
 
  - CWE-552: Files or Directories Accessible to External Parties
 
-<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image7.png" width=50% height=50%>
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image7.png" width=75% height=75%>
  
  - CWE-521: Weak Password Requirements
 
-<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=50% height=50%>
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
  
  - CWE-732: Incorrect Permission Assignment for Critical Resource
 
-<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image10.png" width=50% height=50%>
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image10.png" width=75% height=75%>
 
  - CWE-269: Improper Privilege Management
 
-<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image14.png" width=50% height=50%>
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image14.png" width=75% height=75%>
 
 
 ### Exploitation
