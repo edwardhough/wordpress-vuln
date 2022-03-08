@@ -39,15 +39,25 @@ The following vulnerabilities were identified on each target:
 
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: 
+    - **Exploit Used**
+      - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
+      - Command used: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110
+  
+  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
+  
+  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+  - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_
+    - **Exploit Used**
+      - _TODO: Identify the exploit used_
+      - _TODO: Include the command run_
+  - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
