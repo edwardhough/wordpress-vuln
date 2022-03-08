@@ -15,18 +15,22 @@ nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 
 This scan identifies the services below as potential points of entry:
 - Target 1
-  - List of
-  - Exposed Services
-
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+  - SSH
+  - HTTP
+  - SMB
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+  - CWE-552: Files or Directories Accessible to External Parties
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image7.png" width=50% height=50%>
+ 
+ - CWE-521: Weak Password Requirements
+  - CWE-732: Incorrect Permission Assignment for Critical Resource
+  - CWE-269: Improper Privilege Management
+
+
+
 
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
