@@ -47,7 +47,8 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
       - Command used: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110
   
-  <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
+ 
+ <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8.png" width=75% height=75%>
   
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
