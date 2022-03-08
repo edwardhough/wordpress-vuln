@@ -14,7 +14,7 @@ nmap -sT -A -p- -Pn -T4 --reason -oA host-1-scan 192.168.1.110
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image4.png" width=50% height=50%>
 
 This scan identifies the services below as potential points of entry:
-- Target 1
+- `Target 1`
   - SSH
   - HTTP
   - SMB
