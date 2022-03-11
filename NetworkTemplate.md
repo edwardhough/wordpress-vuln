@@ -14,6 +14,8 @@ You must inspect your traffic capture to answer the following questions:
 
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
 
+<img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image8(1).png" width=50% height=50%>
+
 
 5. What kind of malware is this classified as?
    - This malware is classified as a Trojan
