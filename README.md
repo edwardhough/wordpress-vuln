@@ -4,6 +4,6 @@
 2. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/OffensiveTemplate.md"> Red Team - Summary of Operations </a>
 3. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/NetworkTemplate.md"> Network Forensic Analysis Report </a> 
 
-# The diagram below shows the topology of the network in which this project was completed.
+## The diagram below shows the topology of the network in which this project was completed.
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/networktopology.png" width=100% height=100%>
