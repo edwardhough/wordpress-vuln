@@ -3,7 +3,8 @@
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/networktopology.png" width=100% height=100%>
 
 
-The following reports were completed as a result of the vulnerability assessment of the network.
-1. https://github.com/edwardhough/wordpress-vuln/blob/main/DefensiveTemplate.md
-2. https://github.com/edwardhough/wordpress-vuln/blob/main/OffensiveTemplate.md
-3. https://github.com/edwardhough/wordpress-vuln/blob/main/NetworkTemplate.md
+Following the vulnerability assessment of the network, the following reports were created:
+
+1. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/DefensiveTemplate.md Blue Team - Summary of Operations  </a>
+2. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/OffensiveTemplate.md Red Team - Summary of Operations </a>
+3. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/NetworkTemplate.md Network Forensic Analysis Report </a>
