@@ -5,6 +5,6 @@
 
 Following the vulnerability assessment of the network, the following reports were created:
 
-1. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/DefensiveTemplate.md </a> Blue Team - Summary of Operations
-2. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/OffensiveTemplate.md </a> Red Team - Summary of Operations
-3. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/NetworkTemplate.md  </a> Network Forensic Analysis Report
+1. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/DefensiveTemplate.md" Blue Team - Summary of Operations </a>
+2. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/OffensiveTemplate.md" Red Team - Summary of Operations </a>
+3. <a href= "https://github.com/edwardhough/wordpress-vuln/blob/main/NetworkTemplate.md" Network Forensic Analysis Report </a> 
