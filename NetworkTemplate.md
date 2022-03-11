@@ -50,9 +50,6 @@ Inspect your traffic capture to answer the following questions:
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image3(1).png" width=50% height=50%>
 
-
-Desktop background of Windows host:
-
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image1(1).png" width=50% height=50%>
 
 ---
