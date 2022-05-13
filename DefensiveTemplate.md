@@ -25,9 +25,9 @@ The following machines were identified on the network:
   - **Operating System**: Ubuntu Linux
   - **Purpose**: Vulnerable VM running WordPress
   - **IP Address**: 192.168.1.110
-- Target Machine 2
+- Capstone Machine
   - **Operating System**: Ubuntu Linux
-  - **Purpose**: Vulnerable VM running WordPress
+  - **Purpose**: Monitoring of Target 1
   - **IP Address**: 192.168.1.105
 
 ### Description of Targets
