@@ -48,7 +48,7 @@ Alert 1 is implemented as follows:
   - **Alert rule**: WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
   - **Threshold**: Above 3500 bytes for the last 1 minute
   - **Vulnerability Mitigated**: HTTP request smuggling, denial of service condition through high CPU usage
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Reliability rating - Medium
+  - **Reliability**: Does this alert generate lots of false positives/false negatives? Reliability rating - Medium
 
 <img src="https://github.com/edwardhough/wordpress-vuln/blob/main/images/image%2018.png" width=50% height=50%>
 
